@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <header>
+        <section class="formulario">
+            <form>
+                <h2>Preguntas del Real Madrid</h2>
+                <img class="escudo" src="images/cristiano.jfif" alt="escudo">
+                <br>
+                <h3>Datos personales</h3>
+                <label for="email">Correo electronico para ingresar: *</label><br>
+                <input type="email" id="email" required><br>
+                <label for="tel">Telefono: *</label><br> 
+                <input type="tel" id="tel" placeholder="celular" required><br>
+                <label for="password">Contraseña: *</label><br>
+                <input type="password" id="password" required minlength="8"><br>
+                <h3>Preguntas Generales</h3>
+                <label for="nombre">Nombre del presidente:</label><br>
+                <input type="text" id="nombre" placeholder="Escriba el nombre"><br>
+                <label for="apellido">Goleador Historico: </label><br>
+                <input type="text" id="apelido" placeholder="Escriba el nombre"
+                maxlength="25" minlength="8" required><br>
+                <label for="edad">Numero de champions: </label><br>
+                <input type="number" id="edad" placeholder="Seleccione el numero"><br>
+                <label for="date">En que año se creo el club: </label><br> 
+                <input type="date" id="date"required><br>
+                <div>
+                    <h3>¿En que liga juega el Madrid?</h3>
+                    <input type="radio" name="conect" id="internet">
+                    <label for="internet">Premier league</label>
+                    <input type="radio" name="conect" id="Whatsapp">
+                    <label for="whatsapp">LaLiga</label>
+                    <input type="radio" name="conect" id="Celular">
+                    <label for="Celular">Ligue 1</label>
+                </div>
+                <div>
+                    <h3>¿Cuantas ligas tiene el Madrid?</h3>
+                    <input type="checkbox" name="35" id="35">
+                    <label for="PC">35</label>
+                    <input type="checkbox" name="30" id="30">
+                    <label for="30">30</label>
+                    <input type="checkbox" name="28" id="28">
+                    <label for="28">28</label>
+                </div>
+                <h3>¿Como se llama el estadio del Madrid?</h3>
+            
+                <select>
+                    <optgroup label="Estadio">
+                        <option value="armenia">Camp nou</option>
+                        <option value="pijao">Santiago Bernabeu</option>
+                        <option value="salento">Wanda Metropolitano</option>
+                    </optgroup>
+                </select><br><br>
+                <label for="mensaje">Describa sencillamente al Madrid:</label><br>
+                <textarea rows="5" id="mensaje" cols="20" rows="20"></textarea><br>
+
+
+
+                <br>
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+
+            </form>
+        </main>
+    </section>
+
+    
+</body>
+</html>

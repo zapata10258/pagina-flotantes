@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/madrid.jpg);
+    margin: 5rem;
+}
+
+header {
+    padding: 10px;
+    background:linear-gradient(+80deg,rgb(163, 31, 31),#ffffff,rgb(233, 233, 35));
+    border-radius: 50px;
+    border: 5px solid blue;
+    
+
+
+}
+main{
+    width: 1024px;
+    background:linear-gradient(+80deg,rgb(163, 31, 31),#ffffff,rgb(233, 233, 35));
+    margin: 0 auto;
+    border-radius: 50px;
+
+}
+h2{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    display: flex;
+    background-color: rgb(25, 0, 255);
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo img {
+    width: 20px;
+    border-radius: 50px;
+    
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    background-image: 20px;
+    border-radius: 50px;
+    
+}
+.logo1{
+    border-radius: 50px;
+}
+
+.uniforme{
+    border: 5px solid blue;
+    width: 450px;
+    margin-right: 100rem;
+    float: center;
+    display: flex;
+    align-items: center;
+}
+.tabla{
+    border: 5px solid blue;
+    width: 786px;
+    margin-right: 100rem;
+    float: center;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+.subtitulo{
+    float: right;
+    display: flex;
+    margin-top: 5rem;
+    margin-right: 12rem;
+    align-items: right;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    display: flex;
+    background-color: rgb(25, 0, 255);
+
+}
+
+.descri{
+    float: left;
+}
+
+nav{
+    margin-top: 80px;
+    width: 50%;
+    float: right;
+}
+
+/* nav ul {
+
+} */
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding:10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    color: #000000;
+    background: #001aff;
+}
+
+section{
+    padding: 50px;
+}
+
+
+.piolin{
+    width: 38%;
+    float: left;
+}
+
+.texto-lateral{
+     float: left;
+     width: 103%;
+     margin-top: 8px;
+    
+}
+
+.clear{
+    clear: both;
+}
+.formulario{
+    border: 10px solid red;
+}
+footer {
+    background: linear-gradient(to bottom, #0318ff, #05aadc);
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    margin-top: 2rem;
+  }
